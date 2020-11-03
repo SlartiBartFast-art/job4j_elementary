@@ -28,7 +28,7 @@ package ru.job4j.loop;
             System.out.println(sum(7, 3));
 
             System.out.println(sumByEver(0, 10));
-            //System.out.println(sumByEver(3, 8));
-           // System.out.println(sumByEver(1, 1));
+            System.out.println(sumByEver(3, 8));
+            System.out.println(sumByEver(1, 1));
         }
     }
