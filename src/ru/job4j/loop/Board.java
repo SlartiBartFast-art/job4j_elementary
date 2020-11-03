@@ -6,7 +6,7 @@ public class Board {
             for (int cell = 0; cell < width; cell++) {
                 /* печатаем X - width раз. */
                 //System.out.print("X");
-                if ((row + cell) % 2 == 0) {
+                if ((row + cell) % 2 == 0) { // сумма индексов, четное число
                     System.out.print("X");
                 } else {
                     System.out.print("  ");
