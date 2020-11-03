@@ -12,7 +12,7 @@ package ru.job4j.loop;
 
         public static int sumByEver(int start, int finish) {
             int sum = 0;
-            for (start = 0; start <= finish; start++) {
+            for (int i = start; start <= finish; start++) {
                 if (start % 2 == 0) {
                     sum = sum + start;
                 }
