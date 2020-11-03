@@ -30,5 +30,6 @@ public class SwitchWeek {
                 break;
 
         }
+        return name;
     }
 }
