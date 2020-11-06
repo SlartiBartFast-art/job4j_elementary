@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.is;
 public class PrimeNumberTest {
 
     @Test
-    public void whenNumbercalcToFinish() {
+    public void whenFive() {
         int rsl = PrimeNumber.calc(5);
         assertThat(rsl, is(3));
     }
