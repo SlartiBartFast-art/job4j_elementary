@@ -10,8 +10,12 @@ public class ArrayDefinition {
         System.out.println("Размер массива равен: " + price.length);
         String[] names = new String[4];
         names[0] = "Ivan Ivanov";
+        System.out.println(names[0]);
         names[1] = "Petr Petrov";
+        System.out.println(names[1]);
         names[2] = "Semen Sidorov";
+        System.out.println(names[2]);
         names[3] = "Ivan Petrov";
+        System.out.println(names[3]);
     }
 }
