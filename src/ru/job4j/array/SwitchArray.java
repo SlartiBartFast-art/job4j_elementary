@@ -12,9 +12,6 @@ public class SwitchArray {
         int temp = array[0];
         array[0] = array[array.length - 1];
         array[array.length - 1] = temp;
-        temp = array[array.length - 1];
-        array[array.length - 1] = array[0];
-        array[0] = temp;
 
         return array;
     }
