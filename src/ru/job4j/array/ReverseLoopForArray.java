@@ -5,7 +5,7 @@ public class ReverseLoopForArray {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7};
         for (int i = 0; i < numbers.length; i++) {
             int j = (numbers.length - 1 - i) % 2;
-            boolean k;
+
            if (j == 0) {
             System.out.println("Текущий элемент массива начиная с последнего четный индекс: " + numbers[numbers.length - 1 - i]);
 
