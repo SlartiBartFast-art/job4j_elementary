@@ -9,11 +9,11 @@ public class Defragment {
                 /* переместить первую не null ячейку. Нужен цикл. */
                 for (int j = index; j < array.length; j++) {
                     if (array[j] != null) {
-                        cell = j;
+                        //cell = j;
 
-                        String pow = array[point];
-                        array[point] = array[cell];
-                        array[cell] = pow;
+                        //String pow = array[point];
+                        array[index] = array[j];
+                        array[j] = null;
                         break;
 
                     }
