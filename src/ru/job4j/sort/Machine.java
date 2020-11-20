@@ -14,7 +14,7 @@ public class Machine {
           while (change >= coins[i]) {
                change = change - coins[i];
                rsl[index] = coins[i];
-               size = index + 1;
+               //size = index++;
                index++;
            }
       }
