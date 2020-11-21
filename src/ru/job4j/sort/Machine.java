@@ -14,14 +14,11 @@ public class Machine {
           while (change >= coins[i]) {
                change = change - coins[i];
                rsl[index] = coins[i];
-               //size = index++;
                index++;
            }
       }
-       return Arrays.copyOf(rsl, size);
+       return Arrays.copyOf(rsl, index);
      }
-
-
     }
 
 
