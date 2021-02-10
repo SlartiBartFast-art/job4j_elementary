@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class MultiMax {
     public static int max(int first, int second, int third) {
-        int i = first > second ? first : third;
+        int i = first > second ? first : second;
         int result = i > third ? i : third;
         return result;
     }
